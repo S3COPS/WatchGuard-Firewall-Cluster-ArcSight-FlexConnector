@@ -1,0 +1,626 @@
+event.deviceEventClassId,set.event.DeviceSeverity,set.event.agentSeverity,set.event.name
+1010001,INFO,Low,Device configuration change
+1010002,INFO,Low,Administrative accounts reset to default
+1020001,INFO,Low,Feature key added
+1020002,INFO,Low,Feature key removed
+1020003,WARN,Medium,Feature expired
+1020005,INFO,Low,Feature expiration reminder
+1040001,INFO,Low,Default device settings in use for safe mode
+2000001,ERROR,High,Default certificate not found
+2000002,ERROR,High,Failed to read certificate
+2010001,INFO,Low,IKE process starts
+2010002,INFO,Low,Configuration update started
+2010003,INFO,Low,Configuration update completed
+2010004,WARN,Medium,Device not activated
+2020001,WARN,Medium,IP address not available for Mobile VPN with IPSec user
+2030002,ERROR,High,IKE Phase 1 expecting main mode
+2030003,ERROR,High,IKE Phase 1 expecting aggressive mode
+2030004,ERROR,High,IKE Phase 1 DH group mismatch
+2030005,ERROR,High,IKE Phase 1 hash mismatch
+2030006,ERROR,High,IKE Phase 1 encryption mismatch
+2030007,ERROR,High,IKE Phase 1 authentication method mismatch
+2030008,ERROR,High,IKE Phase 1 AES key length mismatch
+2030009,ERROR,High,IKE Phase 1 invalid first message
+2030010,INFO,Low,IKE Phase 1 matching Main Mode policy not found
+2030011,ERROR,High,IKE Phase 1 remote gateway ID mismatch
+2030012,ERROR,High,IKE Phase 1 pre-shared key authentication failure
+2030013,INFO,Low,IKE Phase 1 negotiation failed
+2030014,INFO,Low,Received informational error message
+2030015,ERROR,High,IKE Phase 1 retry timeout
+2030016,WARN,Medium,Mobile user rejected - maximum user connections reached
+2030017,ERROR,High,CA certificate not available
+2030017,ERROR,High,CA certificate not available
+2030018,ERROR,High,IKE Phase 1 peer certificate CA is not supported
+2030019,ERROR,High,IKE Phase 1 received certificate with invalid CA name
+2030020,ERROR,High,IKE Phase 1 possible shared secret mismatch
+2030021,WARN,Medium,DPD R_U_THERE_ACK not received
+2030022,WARN,Medium,DPD max failure
+2030023,WARN,Medium,Did not receive KEEP_ALIVE_ACK response
+2030024,WARN,Medium,Deleted VPN tunnels due to keep-alive failure
+2030025,INFO,Low,Received IKE message for unknown Phase 1 SA
+2030026,ERROR,High,DSS certificate ID mismatch
+2030027,ERROR,High,Failed to get ID information from certificate
+2030028,INFO,Low,IKE Phase 1 message received on wrong interface
+2030029,ERROR,High,IKE Phase 1 invalid aggressive mode ID
+2050002,ERROR,High,IKE Phase 2 PFS mismatch
+2050003,ERROR,High,IKE Phase-2 proposal type mismatch
+2050003,ERROR,High,IKE Phase-2 proposal type mismatch
+2050004,ERROR,High,IKE Phase 2 AH authentication method mismatch
+2050005,ERROR,High,IKE Phase 2 ESP encryption method mismatch
+2050006,ERROR,High,IKE Phase 2 PFS DH group mismatch
+2050007,ERROR,High,IKE Phase 2 ESP authentication method mismatch
+2050008,ERROR,High,IKE Phase 2 AES key length mismatch
+2050008,ERROR,High,IKE Phase 2 AES key length mismatch
+2050010,INFO,Low,Received quick mode informational error message
+2050011,INFO,Low,Dropped simultaneous Phase 2 negotiation
+2060001,WARN,Medium,Received XAuth fail notification
+2060002,WARN,Medium,"Rejected PSK authentication, Expect client XAUTH enabled."
+2060003,WARN,Medium,"Rejected PSK authentication, Expect server XAUTH enabled."
+2060004,WARN,Medium,XAuth negotiation failed due to mismatched mode
+2060005,WARN,Medium,Mobile VPN with IPSec authentication failed because of unresponsive peer
+2060006,INFO,Low,Mobile VPN with IPSec user connected with no group
+2060007,INFO,Low,Mobile user group information
+2070001,INFO,Low,Tunnel established or re-keyed
+2080001,INFO,Low,IKE phase-1 negotiated successful
+2090001,WARN,Medium,BOVPN tunnel limit reached
+2090001,WARN,Medium,BOVPN tunnel limit reached
+2090002,INFO,Low,IKE process -- FireCluster role changed
+9000001,ERROR,High,Duplicate PPPoE Instance Error
+9000002,ERROR,High,Invalid PPPoE automatic restart settings
+9000004,ERROR,High,Authentication failure
+9000005,ERROR,High,PPPoE stopped
+9000006,INFO,Low,Initiate PPPoE automatic restart
+9000007,WARN,Medium,Skip PPPoE automatic restart
+9000008,INFO,Low,Enforce static IP address
+9000009,INFO,Low,Session established
+11000003,INFO,Low,Authentication server unavailable
+11000004,INFO,Low,User authentication succeeded
+11000005,WARN,Medium,User authentication failed
+11000006,INFO,Low,User unlock
+11000007,WARN,Medium,user lock
+11000008,WARN,Medium,BOVPN TLS client authentication failed
+11000010,INFO,Low,Firebox connected to SSO agent
+11000011,INFO,Low,Firebox closed the connection
+11000012,INFO,Low,Firebox failed to connect to the SSO agent
+11000013,INFO,Low,Successful SSO agent failover
+11000014,INFO,Low,Unsuccessful SSO failover
+15000000,INFO,Low,Device configuration update with audit trail
+15000001,INFO,Low,Device configuration update
+15010000,INFO,Low,IPSec certificate import
+15010001,INFO,Low,Management Server CA certificate import
+16000001,ERROR,High,DHCP discover
+16000002,INFO,Low,DHCP offer
+16000003,INFO,Low,DHCP request
+23000001,ERROR,High,Failed to start
+23000002,INFO,Low,Ready for service
+25000000,INFO,Low,User login
+25000001,INFO,Low,User log off
+30000004,INFO,Low,Application Control feature expired
+30000005,INFO,Low,IPS feature expired
+30000006,INFO,Low,Feature settings updated
+30000007,INFO,Low,DNS forwarding deferred
+30000027,INFO,Low,Firewall is starting up
+30000028,INFO,Low,Firewall is shutting down
+30000029,INFO,Low,Address exempted from blocked sites
+30000040,INFO,Low,Blocked site idle timeout
+30000065,INFO,Low,Quota amount used by the specified user
+30000148,INFO,Low,Normal traffic
+30000149,INFO,Low,Application Control Traffic identified
+30000150,INFO,Low,IPS Traffic detected
+30000151,INFO,Low,Traffic connection terminated
+30000152,INFO,Low,IPv4 source route attack
+30000153,INFO,Low,IPv4 SYN flood attack
+30000154,INFO,Low,IPv4 ICMP flood attack
+30000155,INFO,Low,IPv4 UDP flood attack
+30000156,INFO,Low,IPv4 IPSEC flood attack
+30000157,INFO,Low,IPv4 IKE flood attack
+30000158,INFO,Low,IPv4 scan attack
+30000159,INFO,Low,IPv4 port scan attack
+30000160,INFO,Low,IPv4 DDOS against server
+30000161,INFO,Low,IPv4 DDOS attack from client
+30000162,INFO,Low,IPv6 SYN flood attack
+30000163,INFO,Low,IPv6 ICMP flood attack
+30000164,INFO,Low,IPv6 UDP flood attack
+30000165,INFO,Low,IPv6 IPSEC flood attack
+30000165,INFO,Low,IPv6 IPSEC flood attack
+30000166,INFO,Low,IPv6 IKE flood attack
+30000167,INFO,Low,Alarm Traffic matched policy
+30000167,INFO,Low,Alarm Traffic matched policy
+30000168,INFO,Low,Blocked site
+30000169,INFO,Low,IP spoofing
+30000171,INFO,Low,Conntrack table is full
+30000172,INFO,Low,Blocked port
+30000173,INFO,Low,Hostile traffic
+30011001,INFO,Low,Temporarily blocking host
+31000003,INFO,Low,Initiate gratuitous ARP
+31000004,INFO,Low,Initiate gratuitous ARP
+31000009,INFO,Low,Interface initializing
+31000010,ERROR,High,Failed to add bridge
+31000029,ERROR,High,Failed to add interface IP address
+31000030,INFO,Low,Send interface logical link status event
+31000031,INFO,Low,Send interface link status event
+31000034,INFO,Low,A change was made to the IP address of the external interface
+31000035,ERROR,High,Ignore unknown address operation
+31000036,INFO,Low,Layer 2 traffic gate is closed
+31000037,INFO,Low,Layer 2 traffic gate is opened
+31000038,INFO,Low,Traffic signal changed
+31000039,INFO,Low,Cluster management interface change
+31000046,INFO,Low,Activating external interface
+31000047,INFO,Low,Deactivating external interface
+31000050,INFO,Low,Starting wireless AP
+31000051,INFO,Low,Stopping wireless AP
+31000052,INFO,Low,Starting wireless AP service
+31000054,INFO,Low,Detect rogue wireless AP
+31000055,INFO,Low,Stop detecting rogue wireless AP
+31000056,INFO,Low,Restart detecting rogue wireless AP
+31000057,INFO,Low,Start processing configuration
+31000058,INFO,Low,Update bridge mode settings
+31000059,INFO,Low,Update drop-in mode settings
+31000069,INFO,Low,IPv6 interface activated.
+31000070,INFO,Low,Clean up stale connections
+31000071,INFO,Low,PPPoE IP address change during cluster failover
+31000072,INFO,Low,No change for PPPoE IP address during cluster failover
+31000073,INFO,Low,DHCP IP address change during cluster failover
+31000074,INFO,Low,No change for DHCP IP address during cluster failover
+31000075,ERROR,High,DNSWatch is expired or was disabled
+31130001,ERROR,High,Capture stopped
+38000002,ERROR,High,DHCP overwrite
+38000003,INFO,Low,Cluster interface up
+38000004,WARN,Medium,Cluster interface down
+38000264,WARN,Medium,Time synchronization failure
+38000278,WARN,Medium,Cluster disabled
+38000279,WARN,Medium,Critical configuration change
+38000280,ERROR,High,Device discovery failed
+38000282,INFO,Low,Member ready to join
+39000003,WARN,Medium,Heartbeat lost
+39000005,INFO,Low,Member promoted to master
+39000007,ERROR,High,Failover due to WAI
+39000010,INFO,Low,Member role change
+39000011,INFO,Low,Interface link status change
+39000012,INFO,Low,New master
+39000015,INFO,Low,Failover initiated by administrator
+39000016,WARN,Medium,Cannot initiate failover
+39000019,ERROR,High,Failover due to interface state change
+39000058,INFO,Low,Member Role Change
+40010001,INFO,Low,CA certificate updated successfully
+40010002,ERROR,High,CA certificate updated failed
+41000001,INFO,Low,RapidDeploy succeeded
+41000002,ERROR,High,RapidDeploy failed
+41000003,INFO,Low,New RSS feed update succeeded
+41000004,ERROR,High,New RSS feed update failed
+41000005,INFO,Low,Feature key download succeeded
+41000006,ERROR,High,Feature key download failed
+41000007,INFO,Low,Wireless country specification update succeeded
+41000008,ERROR,High,Wireless country specification update failed
+41010001,INFO,Low,RapidDeploy configuration from USB succeeded
+41010002,ERROR,High,RapidDeploy configuration from USB failed
+45000001,ERROR,High,Duplicate modem instance running
+45000003,INFO,Low,Modem disconnected
+45000004,ERROR,High,Modem authentication failed
+50000001,WARN,Medium,User login failed (wgagent)
+54000001,INFO,Low,Scan started
+54000002,INFO,Low,Scan ended
+54000003,WARN,Medium,Detected Rogue AP
+54000004,INFO,Low,Detected Trusted AP
+55010000,INFO,Low,Bootup time
+55010002,ERROR,High,LIVESECURITY feature not found
+55010003,ERROR,High,LIVESECURITY expired
+55010004,INFO,Low,Shutdown
+55010005,INFO,Low,Reboot
+55010006,INFO,Low,Upgrade succeeded
+55010007,INFO,Low,Automatic reboot
+55010008,INFO,Low,Time change
+55010010,INFO,Low,USB drive format
+55010013,INFO,Low,USB auto restore started
+55010014,INFO,Low,Generate system diagnostic file failed
+55010015,INFO,Low,Periodic support snapshot is enabled
+55010016,INFO,Low,Feature expiration reminder
+55010017,INFO,Low,Generate system diagnostic successfully
+55010018,INFO,Low,Reset to the default configuration failed
+55010019,WARN,Medium,Configuration reset failed during a downgrade
+55010020,INFO,Low,Backup succeeded
+55010021,INFO,Low,Device restore success
+55010022,INFO,Low,USB auto restore image created
+56000001,INFO,Low,Update IPv4 Dynamic Routes
+56000002,INFO,Low,Cluster role failed over to backup
+56000003,INFO,Low,Cluster role failed over to master
+56010001,WARN,Medium,No valid feature key
+56010002,ERROR,High,Failed to retrieve license
+56010003,ERROR,High,Failed to parse license
+56010004,ERROR,High,Not able to get license
+56010005,INFO,Low,License status
+56020001,DEBUG,Low,Received interface event
+56020002,DEBUG,Low,Received cluster event
+56020003,DEBUG,Low,Received cluster event
+56020004,DEBUG,Low,Received license event
+56020005,ERROR,High,RCS unresponsive
+56020006,INFO,Low,Not able to forward request to RCS
+56030001,ERROR,High,An error was detected in the configuration. The log message specifies the line number of the error.
+56040001,ERROR,High,Not able to connect to RCS
+56040002,ERROR,High,Connection to RCS closed
+58000001,INFO,Low,System time changed
+61000002,WARN,Medium,Model mismatch
+61000003,WARN,Medium,Wireless Access Point activation failure
+61000004,INFO,Low,New Wireless Access Point discovered
+61000005,INFO,Low,Wireless Access Point reboot
+61000006,WARN,Medium,Wireless Access Point went offline
+61000007,INFO,Low,Wireless Access Point now online
+61000008,INFO,Low,Wireless Access Point firmware version change
+61000009,INFO,Low,Wireless Access Point configuration updated
+61000010,INFO,Low,Automatic Deployment Event
+61000012,WARN,Medium,Wireless Access Point Trust Failure
+61000013,INFO,Low,Wireless Access Point Trust Validation Restored
+68000001,INFO,Low,Network scan completed
+68000002,INFO,Low,Network scan started
+68000003,INFO,Low,On demand scan - stage 1 completed
+70000001,ERROR,High,Mobile security license limit reached
+70000002,WARN,Medium,Mobile security license high watermark reached
+70010000,INFO,Low,Mobile device connect
+70010001,INFO,Low,Mobile device user already login
+70010002,INFO,Low,Mobile device user login
+70010003,INFO,Low,Mobile device user logout
+70010004,INFO,Low,Mobile device idle disconnected
+70010005,INFO,Low,Mobile device disconneted
+70010006,INFO,Low,Mobile device Unknown compliance
+70010007,INFO,Low,Mobile device Compliant
+70010008,INFO,Low,Mobile device Not Compliant
+70010009,INFO,Low,Mobile device user session recreated
+70020000,INFO,Low,Mobile device Authorization Agreement sign action
+76000000,INFO,Low,SAML certificate changes
+0203000A,ERROR,High,IKE Phase 1 invalid Main Mode second message
+0203000B,ERROR,High,IKE Phase 1 invalid Main Mode Key Exchange payload
+0203000C,ERROR,High,IKE Phase 1 invalid main mode ID
+0203000D,ERROR,High,IKE Phase 1 invalid aggressive mode hash
+0203000E,ERROR,High,IKE Phase 1 invalid Aggressive mode SA payload
+0203000F,INFO,Low,IKE Phase 1 matching aggressive mode policy not found
+0203002A,ERROR,High,IKE Phase 1 IKE version mismatch
+0203002B,ERROR,High,IKE Phase 1 message received on wrong interface IP
+0205000A,ERROR,High,IKE Phase 2 tunnel route mismatch
+0205000B,ERROR,High,IKE Phase 2 message retry timeout
+0205000C,ERROR,High,IKE Phase2 message retry timeout because Phase 1 SA expired
+0205000D,ERROR,High,IKE Phase 2 PFS not enabled
+0205000E,ERROR,High,IKE Phase 2 wait timeout
+0205000F,WARN,Medium,Rejected Phase 2 negotiation due to incorrect gateway
+020B0001,INFO,Low,Tunnel status changed
+021A0001,ERROR,High,Dropped received IKEv2 message
+021A0002,ERROR,High,IKE SA not found to handle IKE_SA_INIT_R message
+021A0003,ERROR,High,Gateway endpoint not found to handle IKE_SA_INIT_R message
+021A0004,INFO,Low,IKEv2 IKE SA is in deleting state
+021A0005,ERROR,High,Invalid message ID in IKEv2 exchange
+021A0006,ERROR,High,IKEv2 gateway endpoint was not found to handle the received message
+021A0007,ERROR,High,IKEv2 gateway endpoint version not matched
+021A0008,ERROR,High,IKEv2 gateway endpoint is disabled
+021A0009,ERROR,High,IKEv2 gateway ID mismatch
+021A000A,ERROR,High,IKEv2 IKE_SA_INIT message received on wrong interface
+021A000B,ERROR,High,IKEv2 remote gateway endpoint ID mismatch
+021A000C,ERROR,High,IKEv2 local gateway endpoint ID mismatch
+021A000D,ERROR,High,Received IKEv2 message does not have expected payloads
+021A000E,ERROR,High,IKEv2 IKE proposal mismatch
+021A000E,ERROR,High,IKEv2 IKE proposal mismatch
+021A000F,ERROR,High,IKEv2 KE DH-Group mismatch
+021A0010,ERROR,High,IKEv2 IPSec KE DH-Group mismatch
+021A0011,ERROR,High,Received unacceptable traffic selector during first CHILD SA negotiation.
+021A0012,ERROR,High,IKEv2 peer authentication method mismatch.
+021A0013,ERROR,High,IKEv2 peer authentication failed
+021A0014,ERROR,High,IKEv2 PSK mismatch
+021A0015,ERROR,High,Received IKEv2 IKE_SA_INIT notification error message.
+021A0016,ERROR,High,Received IKEv2 CREATE_CHILD_SA/IKE_AUTH notification error message.
+021A0017,INFO,Low,IKEv2 IKE SA established
+021A0018,ERROR,High,IKEv2 tunnel proposal mismatch.
+021A0019,ERROR,High,Received invalid SPI during first CHILD SA negotiation.
+021A001A,ERROR,High,Received invalid SPI during IKEv2 IPSec SA rekey
+021A001B,ERROR,High,No response from remote gateway
+021A001C,INFO,Low,IKEv2 IKE SA is waiting for the user authentication result
+021A001D,ERROR,High,IKEv2 gateway ID mismatch
+021A001E,ERROR,High,IKEv2 received invalid EAP information
+021A001F,ERROR,High,IKEv2 IKE_SA_INIT message received on wrong interface IP
+021A0020,ERROR,High,IKEv2 IKE_AUTH message received on wrong interface IP
+0900000A,INFO,Low,Disconnect
+0F000001,INFO,Low,HTTPS content inspection list imported
+0F010015,WARN,Medium,APT threat notified
+0F010016,INFO,Low,APT safe result from file submission.
+1100000C,WARN,Medium,Authentication error
+1100000D,WARN,Medium,Authentication server unavailable
+1100000E,WARN,Medium,Unsupported RADIUS method
+1100000F,WARN,Medium,Groups maximum reached
+1AFF0001,INFO,Low,Session timeout with server idle
+1AFF0002,INFO,Low,Session timeout with client idle
+1AFF0003,INFO,Low,Session timeout with close complete command timeout
+1AFF0004,INFO,Low,Oversize Start-Line
+1AFF0005,INFO,Low,Invalid Request-Line format
+1AFF0006,INFO,Low,Invalid Status-Line format
+1AFF0007,INFO,Low,Header line oversize
+1AFF0008,INFO,Low,Header block oversize
+1AFF0009,INFO,Low,header block parse error
+1AFF000A,INFO,Low,Request missing URL path
+1AFF000B,INFO,Low,Request URL match
+1AFF000C,INFO,Low,Chunk size line oversize
+1AFF000D,INFO,Low,Chunk size line invalid
+1AFF000E,INFO,Low,Chunk no CRLF tail
+1AFF000F,INFO,Low,Footer line oversize
+1AFF0010,INFO,Low,Footer block oversize
+1AFF0011,INFO,Low,Footer block parse error
+1AFF0012,INFO,Low,Body content type match
+1AFF0013,INFO,Low,Header content malformed
+1AFF0016,INFO,Low,Header Transfer-Encoding match
+1AFF0018,INFO,Low,Header content type match
+1AFF0019,INFO,Low,Request version match
+1AFF001A,INFO,Low,Request method match
+1AFF001B,INFO,Low,Header match
+1AFF001C,INFO,Low,Header cookie domain match
+1AFF001D,INFO,Low,Request host missing
+1AFF001E,INFO,Low,Header authentication scheme match
+1AFF001F,INFO,Low,Request method not supported
+1AFF0020,INFO,Low,Request port mismatch
+1AFF0021,INFO,Low,Request categories
+1AFF0022,INFO,Low,Service unavailable
+1AFF0023,INFO,Low,Request URL path oversize
+1AFF0024,INFO,Low,Request
+1AFF0025,INFO,Low,Header IPS rule match
+1AFF0026,INFO,Low,Body IPS rule match
+1AFF0028,INFO,Low,GAV Virus found
+1AFF0029,INFO,Low,GAV scan error
+1AFF002B,INFO,Low,Trusted host
+1AFF002C,INFO,Low,Bad reputation
+1AFF002D,INFO,Low,Good reputation
+1AFF002E,INFO,Low,Application match
+1AFF002F,INFO,Low,DLP violation found
+1AFF0030,INFO,Low,DLP cannot perform scan
+1AFF0031,INFO,Low,DLP object unscannable
+1AFF0032,INFO,Low,HTTP object too large
+1AFF0033,INFO,Low,Range header
+1AFF0034,INFO,Low,APT threat detected
+1AFF0036,INFO,Low,File submitted to APT analysis server
+1AFF0037,INFO,Low,Connect tunnel port match
+1AFF0038,INFO,Low,Webproxy redirect
+1AFF0039,INFO,Low,File reported safe from APT hash check
+1AFF003A,INFO,Low,Content redirect
+1AFF003B,INFO,Low,Request Content match
+1B0400CE,ERROR,High,Ruleset lookup failed
+1BFF0000,INFO,Low,Greeting
+1BFF0001,INFO,Low,ESMTP option
+1BFF0002,INFO,Low,Authentication (AUTH)
+1BFF0003,INFO,Low,Header
+1BFF0004,INFO,Low,From address
+1BFF0005,INFO,Low,To address
+1BFF0006,INFO,Low,Content type
+1BFF0007,INFO,Low,Filename
+1BFF000A,INFO,Low,Timeout
+1BFF000C,INFO,Low,GAV Virus found
+1BFF000E,INFO,Low,GAV cannot perform scan
+1BFF000F,INFO,Low,Request
+1BFF0010,INFO,Low,Message format
+1BFF0011,INFO,Low,IPS match
+1BFF0013,INFO,Low,Too many recipients
+1BFF0014,INFO,Low,Response size too long
+1BFF0015,INFO,Low,Line too long
+1BFF0016,INFO,Low,Message too long
+1BFF0017,INFO,Low,Header too long
+1BFF0018,INFO,Low,Command
+1BFF0019,INFO,Low,spamBlocker confirmed spam
+1BFF001A,INFO,Low,spamBlocker bulk spam
+1BFF001B,INFO,Low,spamBlocker suspect spam
+1BFF001C,INFO,Low,spamBlocker not SPAM
+1BFF001D,INFO,Low,spamBlocker classification unknown
+1BFF001E,INFO,Low,spamBlocker exception matched
+1BFF001F,INFO,Low,Decoder error
+1BFF0021,INFO,Low,Extra pad characters in base64 encoding
+1BFF0022,INFO,Low,Mail from address too long
+1BFF0023,INFO,Low,Application match
+1BFF0024,INFO,Low,DLP violation found
+1BFF0025,INFO,Low,DLP cannot perform scan
+1BFF0026,INFO,Low,DLP cannot scan object
+1BFF0027,INFO,Low,DLP object too large
+1BFF0028,INFO,Low,APT threat detected
+1BFF002A,INFO,Low,File submitted to APT analysis server
+1BFF002B,INFO,Low,File reported safe from APT hash check
+1BFF002C,INFO,Low,Protocol invalid
+1C0200CD,ERROR,High,Ruleset lookup failed
+1CFF0000,INFO,Low,User name too long
+1CFF0001,INFO,Low,Password too long
+1CFF0002,INFO,Low,File or directory name too long
+1CFF0003,INFO,Low,Command line too long
+1CFF0004,INFO,Low,Exceeded maximum allowed login attempts
+1CFF0005,INFO,Low,Command match
+1CFF0006,INFO,Low,Download match
+1CFF0007,INFO,Low,Upload match
+1CFF0008,INFO,Low,Timeout
+1CFF0009,INFO,Low,Invalid request
+1CFF000C,INFO,Low,Request
+1CFF000D,INFO,Low,IPS match
+1CFF000E,INFO,Low,GAV Virus found
+1CFF000F,INFO,Low,GAV scan error
+1CFF0010,INFO,Low,Application match
+1CFF0011,INFO,Low,DLP violation found
+1CFF0012,INFO,Low,DLP cannot perform scan
+1CFF0013,INFO,Low,DLP cannot scan object
+1CFF0014,INFO,Low,DLP object too large
+1CFF0015,INFO,Low,APT threat detected
+1CFF0017,INFO,Low,File submitted to APT analysis server
+1CFF0018,INFO,Low,File reported safe from APT hash check
+1CFF0019,ERROR,High,FTP Bounce Attempt
+1DFF0000,INFO,Low,Invalid number of questions
+1DFF0001,INFO,Low,Query name oversized
+1DFF0002,INFO,Low,Query name compressed
+1DFF0003,INFO,Low,Parse error
+1DFF0004,INFO,Low,Not Internet CLASS
+1DFF0005,INFO,Low,OPcode match
+1DFF0006,INFO,Low,Query type match
+1DFF0007,INFO,Low,Question undersized
+1DFF0008,INFO,Low,Question oversized
+1DFF0009,INFO,Low,Timeout
+1DFF000A,INFO,Low,Response answer undersized
+1DFF000C,INFO,Low,Response ID Invalid
+1DFF000E,INFO,Low,Query question match
+1DFF000F,INFO,Low,Request
+1DFF0010,INFO,Low,IPS match
+1DFF0012,INFO,Low,Application match
+1F000001,ERROR,High,Process failed to start
+1F010015,INFO,Low,Ready for service
+21FF0000,INFO,Low,CAPA
+21FF0001,INFO,Low,Authentication
+21FF0002,INFO,Low,Command
+21FF0005,INFO,Low,Header
+21FF0006,INFO,Low,Content type
+21FF0007,INFO,Low,File name
+21FF0009,INFO,Low,Timeout
+21FF000A,INFO,Low,Request
+21FF000C,INFO,Low,IPS match
+21FF000F,INFO,Low,GAV Virus found
+21FF0010,INFO,Low,GAV cannot perform scan
+21FF0012,INFO,Low,Line length too long
+21FF0014,INFO,Low,Message format
+21FF0015,INFO,Low,Encoding error
+21FF0016,INFO,Low,spamBlocker confirmed spam
+21FF0017,INFO,Low,spamBlocker BULK spam
+21FF0018,INFO,Low,spamBlocker suspect spam
+21FF001A,INFO,Low,spamBlocker exception matched
+21FF001B,INFO,Low,spamBlocker not spam
+21FF001C,INFO,Low,spamBlocker classification unknown
+21FF001D,INFO,Low,Extra pad characters
+21FF001E,INFO,Low,Application match
+21FF001F,INFO,Low,APT threat detected
+21FF0021,INFO,Low,File submitted to APT analysis server
+21FF0022,INFO,Low,File reported safe from APT hash check
+22FF0000,INFO,Low,Request
+22FF0001,INFO,Low,Timeout
+22FF0002,INFO,Low,Malformed Command
+22FF0004,INFO,Low,Malformed Response
+22FF0005,INFO,Low,Content Type
+22FF0006,INFO,Low,Filename
+22FF0008,INFO,Low,Virus Found
+22FF0009,INFO,Low,Cannot Perform Gateway AV Scan
+22FF000A,INFO,Low,APT detected
+22FF000C,INFO,Low,File Submitted to APT analysis server
+22FF000D,INFO,Low,File reported safe from APT hash check
+22FF000E,INFO,Low,spamBlocker confirmed spam
+22FF000F,INFO,Low,spamBlocker bulk mail
+22FF0010,INFO,Low,spamBlocker suspect spam
+22FF0011,INFO,Low,spamBlocker not scored
+22FF0012,INFO,Low,spamBlocker exception matched
+22FF0013,INFO,Low,spamBlocker not spam
+22FF0014,INFO,Low,spamBlocker not spam
+22FF0015,INFO,Low,GAV file too large
+22FF0016,INFO,Low,GAV file encrypted
+22FF1017,INFO,Low,Protocol invalid
+22FF1018,INFO,Low,Content Inspection
+28FF0000,INFO,Low,Timeout
+28FF0004,INFO,Low,Request
+28FF0005,INFO,Low,Codec
+28FF0006,INFO,Low,Access control
+28FF0008,INFO,Low,IPS match
+28FF0009,INFO,Low,Application match
+2AFF0000,INFO,Low,Timeout
+2AFF0001,INFO,Low,Request
+2AFF0002,INFO,Low,Codec
+2AFF0003,INFO,Low,Access control
+2AFF0006,INFO,Low,IPS match
+2AFF0007,INFO,Low,Application match
+2CFF0000,INFO,Low,Request
+2CFF0001,INFO,Low,WebBlocker Request categories
+2CFF0002,INFO,Low,WebBlocker service unavailable
+2CFF0003,INFO,Low,Domain name match
+2CFF0007,INFO,Low,Protocol invalid
+2CFF0008,INFO,Low,Timeout
+2CFF0009,INFO,Low,Content inspection
+2DFF0000,INFO,Low,Request
+2DFF0001,INFO,Low,IPS match
+2DFF0004,INFO,Low,Protocol
+2DFF0005,INFO,Low,Application match
+"2E000005	",ERROR,High,Process exiting
+2.00E+06,ERROR,High,Process crashed
+2E010017,WARN,Medium,License failed to load
+2E010018,ERROR,High,Failed to start the signature update for the specified services
+2E010019,ERROR,High,Failed to check the available signature version on the server
+2E01001A,ERROR,High,Signature update process failed to start
+2E01001B,ERROR,High,Signature update process crashed
+2E020065,INFO,Low,Signature update process started
+2E020066,INFO,Low,Signature update process completed
+2E020067,ERROR,High,Signature update process for the specified version failed
+2E020069,INFO,Low,Device has the latest signature version for the specified service
+3000002A,INFO,Low,Address already blocked
+3000002F,INFO,Low,Feature not supported by feature key
+3000003A,ERROR,High,Unable to read feature keys
+3000003C,ERROR,High,No route to HTTP redirect host
+300000C9,INFO,Low,Load Balance Server(TCP Probe)
+300000CB,INFO,Low,Load Balance Server(ICMP Probe)
+3000012C,ERROR,High,ARP spoofing attack
+3000012D,INFO,Low,Verify ARP entry
+3000012E,ERROR,High,Possible loop or ARP spoofing detected
+3100000A,INFO,Low,Interface shutting down
+3100000B,INFO,Low,Multi-WAN interface activated.
+3100000D,WARN,Medium,Multi-WAN interface deactivated
+3100000F,INFO,Low,Add bridge interface
+3100002B,ERROR,High,Interface is disabled
+3100002C,WARN,Medium,Interface link status changed
+3100003A,WARN,Medium,Cluster is enabled
+3100003B,WARN,Medium,Cluster setting changed to disabled
+3100003D,INFO,Low,Update ARP rules
+3100003E,INFO,Low,Cluster A/P role changed
+3100003F,INFO,Low,Cluster A/A role changed
+3100004F,INFO,Low,Fix up multipath gateways
+3100005A,INFO,Low,Update wireless settings
+3100005B,INFO,Low,Update secondary IP settings
+3100005C,INFO,Low,Update route settings
+3100005D,INFO,Low,Update 1to1 NAT settings
+3100005E,INFO,Low,Update DNS settings
+3100006A,WARN,Medium,IPv6 interface deactivated.
+3100006C,INFO,Low,IPv6 interface shutting down
+3100006D,INFO,Low,IPv6 interface initializing
+3800025A,INFO,Low,Cluster enabled
+3800025B,INFO,Low,Cluster disabled on master
+3800025C,INFO,Low,Configuration update
+3800027A,WARN,Medium,Non-master member removed
+3800027E,ERROR,High,Factory-default reset failed
+3900000C,ERROR,High,Synchronization failed
+3900000D,ERROR,High,Synchronization timeout
+3900000E,INFO,Low,Synchronization successful
+3900000F,ERROR,High,Failover due to link-down
+3A000002,INFO,Low,VRRP enabled
+3A000004,INFO,Low,VRRP start master
+3A000005,INFO,Low,VR shutdown
+3A000006,INFO,Low,VR pause
+3A000007,INFO,Low,VR resume
+3A000008,INFO,Low,VR backup state
+3A00000A,INFO,Low,VR notification gap
+3A00000B,INFO,Low,VRRP master state
+3A00000C,ERROR,High,VRRP initialization failed
+3A00000E,INFO,Low,VR enabled
+3A00000F,INFO,Low,VR disabled
+3B000001,INFO,Low,Channel status change
+3B000002,INFO,Low,Cluster interface down
+3D040001,INFO,Low,Primary Log Server connected
+3D040002,INFO,Low,Backup Log Server connected
+3.00E+02,INFO,Low,User login succeeded
+3.00E+03,WARN,Medium,User login failed
+3.00E+04,INFO,Low,User logout
+5501000B,INFO,Low,Device restore
+5501000B,INFO,Low,Device restore
+5501000C,INFO,Low,Device restore failed
+5501000D,INFO,Low,Creating USB auto restore image failed
+5501001A,WARN,Medium,Upgrade failed
+5501001B,INFO,Low,System backup failed
+5501001C,INFO,Low,USB auto restore failed reason
+5501001D,INFO,Low,Logo upload succeeded
+5A000001,INFO,Low,Response from Dynamic DNS server
+5A000002,INFO,Low,Dynamic DNS Domain Name Resolved
+5A000003,INFO,Low,Connected to the server
+5A000004,INFO,Low,Connecting to the server
+5A000005,INFO,Low,Activate dynamic DNS
+5A000006,DEBUG,Low,Received reply from the server
+5A000007,ERROR,High,Unable to resolve domain name
+5A000008,ERROR,High,Failed to connect to the server
+5A000009,ERROR,High,Unable to connect to server
+5A00000A,ERROR,High,No response from server
+5A00000B,ERROR,High,Invalid response from server
+5A00000C,INFO,Low,The time for next update
+5A00000D,DEBUG,Low,Send update request
+5B010001,INFO,Low,Daemon started
+5B010002,INFO,Low,Configuration updated
+5B010003,INFO,Low,Daemon stopped
+5B010004,INFO,Low,Update user session
+5B010005,INFO,Low,Delete user session
+6100000A,INFO,Low,Wireless Access Point paired
+6100000B,INFO,Low,Wireless Access Point unpaired
+6100000C,WARN,Medium,Rogue Access Point detected
+6100000F,INFO,Low,Scheduled Restart Event

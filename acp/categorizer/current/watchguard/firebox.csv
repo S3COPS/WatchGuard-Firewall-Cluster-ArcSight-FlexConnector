@@ -1,0 +1,626 @@
+﻿event.deviceEventClassId,set.event.categoryObject,set.event.categoryBehavior,set.event.categoryTechnique,set.event.categoryDeviceGroup,set.event.categorySignificance,set.event.categoryOutcome,set.event.originator
+1010001,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+1010002,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1020001,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+1020002,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1020003,/Network,/Execute/Query,,/Firewall,/Informational/Warning,/Failure,Source
+1020005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1040001,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+2000001,/Network,/Execute/Query,,/VPN,/Informational/Error,/Failure,Source
+2000002,/Network,/Execute/Query,,/VPN,/Informational/Error,/Failure,Source
+2010001,/Network,/Authorization/Verify,,/VPN,/Informational,/Success,Source
+2010002,/Network,/Modify/Configuration,,/VPN,/Informational,/Success,Source
+2010003,/Network,/Modify/Configuration,,/VPN,/Informational,/Success,Source
+2010004,/Network,/Execute/Query,,/VPN,/Informational/Warning,/Failure,Source
+2020001,/Network,/Check/Operational,,/VPN,/Informational/Warning,/Failure,Source
+2030002,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+2030003,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+2030004,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2030005,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2030006,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2030007,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2030008,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2030009,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2030010,/Network,/Authorization/Verify,,/VPN,/Informational,/Success,Source
+2030011,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2030012,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+2030013,/Network,/Authorization/Verify,,/VPN,/Informational,/Failure,Source
+2030014,/Network,/Execute/Query,,/VPN,/Informational,/Success,Source
+2030015,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+2030016,/Network,/Access/Start,,/VPN,/Informational/Warning,/Failure,Source
+2030017,/Network,/Check/Operational,,/VPN,/Informational/Error,/Failure,Source
+2030017,/Network,/Check/Operational,,/VPN,/Informational/Error,/Failure,Source
+2030018,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+2030019,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2030020,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2030021,/Network,/Execute/Query,,/VPN,/Informational/Warning,/Failure,Source
+2030022,/Network,/Execute/Query,,/VPN,/Informational/Warning,/Failure,Source
+2030023,/Network,/Execute/Query,,/VPN,/Informational/Warning,/Failure,Source
+2030024,/Network,/Authorization/Delete,,/VPN,/Informational/Warning,/Failure,Source
+2030025,/Network,/Authorization/Verify,,/VPN,/Informational,/Success,Source
+2030026,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2030027,/Network,/Execute/Query,,/VPN,/Informational/Error,/Failure,Source
+2030028,/Network,/Authorization/Verify,,/VPN,/Informational,/Success,Source
+2030029,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2050002,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2050003,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2050003,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2050004,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2050005,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2050006,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2050007,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2050008,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2050008,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+2050010,/Network,/Execute/Query,,/VPN,/Informational,/Success,Source
+2050011,/Network,/Access/Stop,,/VPN,/Informational,/Failure,Source
+2060001,/Network,/Authorization/Verify,,/VPN,/Informational/Warning,/Failure,Source
+2060002,/Network,/Authorization/Verify,,/VPN,/Informational/Warning,/Failure,Source
+2060003,/Network,/Authorization/Verify,,/VPN,/Informational/Warning,/Failure,Source
+2060004,/Network,/Authorization/Verify,,/VPN,/Informational/Warning,/Failure,Source
+2060005,/Network,/Authorization/Verify,,/VPN,/Informational/Warning,/Failure,Source
+2060006,/Network,/Access/Start,,/VPN,/Informational,/Success,Source
+2060007,/Network,/Access/Start,,/VPN,/Informational,/Success,Source
+2070001,/Network,/Execute/Query,,/VPN,/Informational,/Success,Source
+2080001,/Network,/Authorization/Verify,,/VPN,/Informational,/Success,Source
+2090001,/Network,/Execute/Query,,/VPN,/Informational/Warning,/Failure,Source
+2090001,/Network,/Execute/Query,,/VPN,/Informational/Warning,/Failure,Source
+2090002,/Network,/Modify/Attribute,,/VPN,/Informational,/Success,Source
+9000001,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+9000002,/Network,/Communicate/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+9000004,/Network,/Authentication/Verify,,/Network Equipment,/Informational/Error,/Failure,Source
+9000005,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+9000006,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+9000007,/Network,/Execute/Query,,/Network Equipment,/Informational/Warning,/Failure,Source
+9000008,/Network,/Communicate/Query,,/Network Equipment,/Informational,/Success,Source
+9000009,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+11000003,/Network,/Communicate/Response,,/Firewall,/Informational,/Failure,Source
+11000004,/Network,/Authentication/Verify,,/Firewall,/Informational,/Success,Source
+11000005,/Network,/Authentication/Verify,,/Firewall,/Informational/Warning,/Failure,Source
+11000006,/Network,/Access/Start,,/Firewall,/Informational,/Success,Source
+11000007,/Network,/Access/Stop,,/Firewall,/Informational/Warning,/Failure,Source
+11000008,/Network,/Authorization/Verify,,/Firewall,/Informational/Warning,/Failure,Source
+11000010,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+11000011,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+11000012,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+11000013,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+11000014,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+15000000,/Network,/Modify/Configuration,,/Firewall,/Informational,/Success,Source
+15000001,/Network,/Modify/Configuration,,/Firewall,/Informational,/Success,Source
+15010000,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+15010001,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+16000001,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+16000002,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+16000003,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+23000001,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+23000002,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+25000000,/Network,/Authentication/Verify,,/VPN,/Informational,/Success,Source
+25000001,/Network,/Access/Stop,,/VPN,/Informational,/Success,Source
+30000004,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+30000005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+30000006,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+30000007,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+30000027,/Network,/Execute/Query,,/Firewall,/Informational,/Attempt,Source
+30000028,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+30000029,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+30000040,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+30000065,/Network,/Check,,/Firewall,/Informational,/Success,Source
+30000148,/Network,/Communicate,,/Firewall,/Informational,/Success,Source
+30000149,/Network,/Communicate,,/Firewall,/Informational,/Success,Source
+30000150,/Network,/Communicate,/Traffic Anomaly/Network Layer,/Firewall,/Suspicious,/Success,Source
+30000151,/Network,/Communicate,,/Firewall,/Informational,/Success,Source
+30000152,/Network,/Communicate,/Traffic Anomaly/Network Layer,/Firewall,/Suspicious,/Success,Source
+30000153,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000154,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000155,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000156,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000157,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000158,/Network,/Communicate,/Traffic Anomaly/Network Layer,/Firewall,/Recon,/Success,Source
+30000159,/Network,/Communicate,/Scan/Port,/Firewall,/Recon,/Success,Source
+30000160,/Network,/Execute/Query,/DoS,/Firewall,/Informational,/Success,Source
+30000161,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000162,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000163,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000164,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000165,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000165,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000166,/Network,/Communicate,/DoS,/Firewall,/Suspicious,/Success,Source
+30000167,/Network,/Communicate,/Traffic Anomaly/Network Layer,/Firewall,/Suspicious,/Success,Source
+30000167,/Network,/Communicate,/Traffic Anomaly/Network Layer,/Firewall,/Suspicious,/Success,Source
+30000168,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+30000169,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+30000171,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+30000172,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+30000173,/Network,/Communicate,/Traffic Anomaly/Network Layer,/Firewall,/Hostile,/Success,Source
+30011001,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+31000003,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+31000004,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+31000009,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+31000010,/Network,/Communicate/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+31000029,/Network,/Communicate/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+31000030,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+31000031,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+31000034,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+31000035,/Network,/Communicate/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+31000036,/Network,/Communicate,,/Network Equipment,/Informational,/Success,Source
+31000037,/Network,/Communicate,,/Network Equipment,/Informational,/Success,Source
+31000038,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+31000039,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+31000046,/Network,/Execute/Query,,/Network Equipment,/Informational,/Attempt,Source
+31000047,/Network,/Execute/Query,,/Network Equipment,/Informational,/Attempt,Source
+31000050,/Network,/Execute/Query,,/Network Equipment,/Informational,/Attempt,Source
+31000051,/Network,/Execute/Query,,/Network Equipment,/Informational,/Attempt,Source
+31000052,/Network,/Execute/Query,,/Network Equipment,/Informational,/Attempt,Source
+31000054,/Network,/Execute/Query,/Traffic Anomaly/Application Layer/Man in the Middle,/Network Equipment,/Informational,/Success,Source
+31000055,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+31000056,/Network,/Execute/Query,/Traffic Anomaly/Application Layer/Man in the Middle,/Network Equipment,/Informational,/Success,Source
+31000057,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+31000058,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+31000059,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+31000069,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+31000070,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+31000071,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Failure,Source
+31000072,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Failure,Source
+31000073,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Failure,Source
+31000074,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Failure,Source
+31000075,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+31130001,/Network,/Check/Security,,/Network Equipment,/Informational/Error,/Success,Source
+38000002,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Success,Source
+38000003,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+38000004,/Network,/Execute/Query,,/Firewall,/Informational/Warning,/Failure,Source
+38000264,/Network,/Execute/Query,,/Firewall,/Informational/Warning,/Failure,Source
+38000278,/Network,/Execute/Query,,/Firewall,/Informational/Warning,/Success,Source
+38000279,/Network,/Modify/Attribute,,/Firewall,/Informational/Warning,/Success,Source
+38000280,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+38000282,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+39000003,/Network,/Execute/Query,,/Firewall,/Informational/Warning,/Failure,Source
+39000005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+39000007,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+39000010,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+39000011,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+39000012,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+39000015,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+39000016,/Network,/Execute/Query,,/Firewall,/Informational/Warning,/Failure,Source
+39000019,/Network,/Modify/Attribute,,/Firewall,/Informational/Error,/Failure,Source
+39000058,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+40010001,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+40010002,/Network,/Modify/Attribute,,/Firewall,/Informational/Error,/Failure,Source
+41000001,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+41000002,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+41000003,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+41000004,/Network,/Modify/Attribute,,/Firewall,/Informational/Error,/Failure,Source
+41000005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+41000006,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+41000007,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+41000008,/Network,/Modify/Attribute,,/Firewall,/Informational/Error,/Failure,Source
+41010001,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+41010002,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+45000001,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+45000003,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+45000004,/Network,/Authorization/Verify,,/Network Equipment,/Informational/Error,/Failure,Source
+50000001,/Network,/Authentication/Verify,,/Firewall,/Informational/Warning,/Failure,Source
+54000001,/Network,/Check/Security,,/Network Equipment,/Informational,/Success,Source
+54000002,/Network,/Check/Security,,/Network Equipment,/Informational,/Success,Source
+54000003,/Network,/Execute/Query,,/Network Equipment,/Informational/Warning,/Success,Source
+54000004,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+55010000,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+55010002,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+55010003,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+55010004,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+55010005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+55010006,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+55010007,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+55010008,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+55010010,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+55010013,/Network,/Check,,/Firewall,/Informational,/Success,Source
+55010014,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+55010015,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+55010016,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+55010017,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+55010018,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+55010019,/Network,/Execute/Query,,/Firewall,/Informational/Warning,/Failure,Source
+55010020,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+55010021,/Network,/Check,,/Firewall,/Informational,/Success,Source
+55010022,/Network,/Check,,/Firewall,/Informational,/Success,Source
+56000001,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+56000002,/Network,/Execute/Query,,/Network Equipment,/Informational,/Failure,Source
+56000003,/Network,/Execute/Query,,/Network Equipment,/Informational,/Failure,Source
+56010001,/Network,/Execute/Query,,/Network Equipment,/Informational/Warning,/Failure,Source
+56010002,/Host/Application/License,/Check/Configuration,,/Network Equipment,/Informational/Error,/Failure,Source
+56010003,/Host/Application/License,/Check/Configuration,,/Network Equipment,/Informational/Error,/Failure,Source
+56010004,/Host/Application/License,/Check/Configuration,,/Network Equipment,/Informational/Error,/Failure,Source
+56010005,/Host/Application/License,/Check/Configuration,,/Network Equipment,/Informational,/Success,Source
+56020001,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+56020002,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+56020003,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+56020004,/Host/Application/License,/Check/Configuration,,/Network Equipment,/Informational,/Success,Source
+56020005,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+56020006,/Network,/Execute/Query,,/Network Equipment,/Informational,/Failure,Source
+56030001,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+56040001,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+56040002,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+58000001,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+61000002,/Network,/Access/Start,,/Network Equipment,/Informational/Warning,/Failure,Source
+61000003,/Network,/Execute/Query,,/Network Equipment,/Informational/Warning,/Failure,Source
+61000004,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+61000005,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+61000006,/Network,/Execute/Query,,/Network Equipment,/Informational/Warning,/Failure,Source
+61000007,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+61000008,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+61000009,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+61000010,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+61000012,/Network,/Execute/Query,,/Network Equipment,/Informational/Warning,/Failure,Source
+61000013,/Network,/Check,,/Network Equipment,/Informational,/Success,Source
+68000001,/Network,/Check/Security,,/Network Equipment,/Informational,/Success,Source
+68000002,/Network,/Check/Security,,/Network Equipment,/Informational,/Success,Source
+68000003,/Network,/Check/Security,,/Network Equipment,/Informational,/Success,Source
+70000001,/Host/Application/License,/Check/Configuration,,/Firewall,/Informational/Error,/Failure,Source
+70000002,/Host/Application/License,/Check/Configuration,,/Firewall,/Informational/Warning,/Failure,Source
+70010000,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+70010001,/Network,/Authentication/Verify,,/Firewall,/Informational,/Success,Source
+70010002,/Network,/Authentication/Verify,,/Firewall,/Informational,/Success,Source
+70010003,/Network,/Access/Stop,,/Firewall,/Informational,/Success,Source
+70010004,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+70010005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+70010006,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+70010007,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+70010008,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+70010009,/Network,/Access/Start,,/Firewall,/Informational,/Success,Source
+70020000,/Network,/Authorization/Verify,,/Firewall,/Informational,/Success,Source
+76000000,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+0203000A,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+0203000B,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+0203000C,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+0203000D,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+0203000E,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+0203000F,/Network,/Authorization/Verify,,/VPN,/Informational,/Success,Source
+0203002A,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+0203002B,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+0205000A,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+0205000B,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+0205000C,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+0205000D,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+0205000E,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+0205000F,/Network,/Execute/Query,,/VPN,/Informational/Warning,/Failure,Source
+020B0001,/Network,/Modify/Attribute,,/VPN,/Informational,/Success,Source
+021A0001,/Network,/Access/Stop,,/VPN,/Informational/Error,/Failure,Source
+021A0002,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+021A0003,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+021A0004,/Network,/Authorization/Verify,,/VPN,/Informational,/Success,Source
+021A0005,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A0006,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+021A0007,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+021A0008,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+021A0009,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A000A,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+021A000B,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A000C,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A000D,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+021A000E,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A000E,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A000F,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A0010,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A0011,/Network,/Communicate,,/VPN,/Informational/Error,/Failure,Source
+021A0012,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A0013,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+021A0014,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A0015,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+021A0016,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+021A0017,/Network,/Authorization/Verify,,/VPN,/Informational,/Success,Source
+021A0018,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A0019,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A001A,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A001B,/Network,/Execute/Query,,/VPN,/Informational/Error,/Failure,Source
+021A001C,/Network,/Authorization/Verify,,/VPN,/Informational,/Success,Source
+021A001D,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A001E,/Network,/Access/Start,,/VPN,/Informational/Error,/Failure,Source
+021A001F,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+021A0020,/Network,/Authorization/Verify,,/VPN,/Informational/Error,/Failure,Source
+0900000A,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+0F000001,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+0F010015,/Network,/Check/Security,/Exploit,/Firewall,/Suspicious,/Success,Source
+0F010016,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+1100000C,/Network,/Authentication/Verify,,/Firewall,/Informational/Warning,/Failure,Source
+1100000D,/Network,/Communicate/Response,,/Firewall,/Informational/Warning,/Failure,Source
+1100000E,/Network,/Execute/Query,,/Firewall,/Informational/Warning,/Failure,Source
+1100000F,/Network,/Execute/Query,,/Firewall,/Informational/Warning,/Failure,Source
+1AFF0001,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1AFF0002,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1AFF0003,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1AFF0004,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1AFF0005,/Network,/Communicate/Query,,/Firewall,/Informational,/Failure,Source
+1AFF0006,/Network,/Communicate/Query,,/Firewall,/Informational,/Failure,Source
+1AFF0007,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1AFF0008,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Failure,Source
+1AFF0009,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Failure,Source
+1AFF000A,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF000B,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF000C,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1AFF000D,/Network,/Communicate/Query,,/Firewall,/Informational,/Failure,Source
+1AFF000E,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1AFF000F,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1AFF0010,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Failure,Source
+1AFF0011,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Failure,Source
+1AFF0012,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0013,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0016,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0018,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0019,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF001A,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF001B,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF001C,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF001D,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF001E,/Network,/Authorization/Verify,,/Firewall,/Informational,/Success,Source
+1AFF001F,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0020,/Network,/Access/Start,,/Firewall,/Informational,/Failure,Source
+1AFF0021,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0022,/Network,/Check/Operational,,/Firewall,/Informational,/Success,Source
+1AFF0023,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1AFF0024,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0025,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0026,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0028,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0029,/Network,/Check/Security,,/Firewall,/Informational,/Failure,Source
+1AFF002B,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF002C,/Network,/Execute/Query,/Policy/Breach,/Firewall,/Informational,/Success,Source
+1AFF002D,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF002E,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF002F,/Network,/Execute/Query,/Information Leak,/Firewall,/Informational,/Success,Source
+1AFF0030,/Network,/Check/Security,/Policy/Breach,/Firewall,/Informational,/Failure,Source
+1AFF0031,/Network,/Check/Security,/Policy/Breach,/Firewall,/Informational,/Failure,Source
+1AFF0032,/Network,/Execute/Query,/Policy/Breach,/Firewall,/Informational,/Failure,Source
+1AFF0033,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0034,/Network,/Found/Vulnerable,/Exploit,/Firewall,/Suspicious,/Success,Source
+1AFF0036,/Network,/Check/Security,/Traffic Anomaly/Application Layer,/Firewall,/Suspicious,/Success,Source
+1AFF0037,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0038,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF0039,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+1AFF003A,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1AFF003B,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1B0400CE,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+1BFF0000,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1BFF0001,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1BFF0002,/Network,/Authentication/Verify,,/Firewall,/Informational,/Attempt,Source
+1BFF0003,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1BFF0004,/Network,/Communicate/Query,,/Firewall,/Informational,/Success,Source
+1BFF0005,/Network,/Communicate/Query,,/Firewall,/Informational,/Success,Source
+1BFF0006,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1BFF0007,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1BFF000A,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1BFF000C,/Network,/Found/Vulnerable,,/Firewall,/Informational,/Success,Source
+1BFF000E,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+1BFF000F,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1BFF0010,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1BFF0011,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1BFF0013,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1BFF0014,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1BFF0015,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1BFF0016,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1BFF0017,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1BFF0018,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1BFF0019,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+1BFF001A,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+1BFF001B,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+1BFF001C,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+1BFF001D,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+1BFF001E,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+1BFF001F,/Network,/Execute/Query,/Traffic Anomaly,/Firewall,/Informational,/Success,Source
+1BFF0021,/Network,/Execute/Query,/Traffic Anomaly,/Firewall,/Informational,/Success,Source
+1BFF0022,/Network,/Communicate/Query,/Traffic Anomaly,/Firewall,/Informational,/Failure,Source
+1BFF0023,/Network,/Execute/Query,/Traffic Anomaly,/Firewall,/Informational,/Success,Source
+1BFF0024,/Network,/Execute/Query,/Information Leak,/Firewall,/Informational,/Success,Source
+1BFF0025,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+1BFF0026,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+1BFF0027,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1BFF0028,/Network,/Found/Vulnerable,,/Firewall,/Informational,/Success,Source
+1BFF002A,/Network,/Check/Security,/Traffic Anomaly/Application Layer,/Firewall,/Suspicious,/Success,Source
+1BFF002B,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+1BFF002C,/Network,/Communicate/Query,,/Firewall,/Informational,/Failure,Source
+1C0200CD,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+1CFF0000,/Network,/Check,,/Firewall,/Informational,/Failure,Source
+1CFF0001,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1CFF0002,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1CFF0003,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1CFF0004,/Network,/Authentication/Verify,,/Firewall,/Informational,/Failure,Source
+1CFF0005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1CFF0006,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1CFF0007,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1CFF0008,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1CFF0009,/Network,/Communicate/Query,,/Firewall,/Informational,/Failure,Source
+1CFF000C,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1CFF000D,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1CFF000E,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1CFF000F,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+1CFF0010,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1CFF0011,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1CFF0012,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+1CFF0013,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+1CFF0014,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1CFF0015,/Network,/Found/Vulnerable,/Exploit,/Firewall,/Suspicious,/Success,Source
+1CFF0017,/Network,/Check/Security,/Traffic Anomaly/Application Layer,/Firewall,/Suspicious,/Success,Source
+1CFF0018,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+1CFF0019,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Success,Source
+1DFF0000,/Network,/Communicate/Query,,/Firewall,/Informational,/Failure,Source
+1DFF0001,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF0002,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF0003,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF0004,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF0005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF0006,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF0007,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF0008,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF0009,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF000A,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+1DFF000C,/Network,/Communicate/Query,,/Firewall,/Informational,/Failure,Source
+1DFF000E,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF000F,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF0010,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1DFF0012,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+1F000001,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+1F010015,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF0000,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF0001,/Network,/Authentication/Verify,,/Firewall,/Informational,/Attempt,Source
+21FF0002,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF0005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF0006,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF0007,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF0009,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+21FF000A,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF000C,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF000F,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF0010,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+21FF0012,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+21FF0014,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF0015,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+21FF0016,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+21FF0017,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+21FF0018,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+21FF001A,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+21FF001B,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+21FF001C,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+21FF001D,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF001E,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+21FF001F,/Network,/Found/Vulnerable,/Exploit,/Firewall,/Suspicious,/Success,Source
+21FF0021,/Network,/Check/Security,/Traffic Anomaly/Application Layer,/Firewall,/Suspicious,/Success,Source
+21FF0022,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+22FF0000,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+22FF0001,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+22FF0002,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+22FF0004,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+22FF0005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+22FF0006,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+22FF0008,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+22FF0009,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+22FF000A,/Network,/Found/Vulnerable,/Exploit,/Firewall,/Suspicious,/Success,Source
+22FF000C,/Network,/Check/Security,/Traffic Anomaly/Application Layer,/Firewall,/Suspicious,/Success,Source
+22FF000D,/Network,/Check/Security,,/Firewall,/Informational,/Success,Source
+22FF000E,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+22FF000F,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+22FF0010,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+22FF0011,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+22FF0012,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+22FF0013,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+22FF0014,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+22FF0015,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+22FF0016,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+22FF1017,/Network,/Communicate/Query,,/Firewall,/Informational,/Failure,Source
+22FF1018,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+28FF0000,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+28FF0004,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+28FF0005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+28FF0006,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+28FF0008,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+28FF0009,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2AFF0000,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2AFF0001,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2AFF0002,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2AFF0003,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2AFF0006,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2AFF0007,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2CFF0000,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2CFF0001,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+2CFF0002,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Failure,Source
+2CFF0003,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2CFF0007,/Network,/Communicate/Query,,/Firewall,/Informational,/Failure,Source
+2CFF0008,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2CFF0009,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2DFF0000,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2DFF0001,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2DFF0004,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+2DFF0005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+"2E000005	",/Network,/Execute/Query,,/Firewall,/Informational/Error,/Success,Source
+2E000006,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+2E010017,/Host/Application/License,/Check/Configuration,,/Firewall,/Informational/Warning,/Failure,Source
+2E010018,/Network,/Modify/Attribute,,/Firewall,/Informational/Error,/Failure,Source
+2E010019,/Network,/Check/Operational,,/Firewall,/Informational/Error,/Failure,Source
+2E01001A,/Network,/Modify/Content,,/Firewall,/Informational/Error,/Failure,Source
+2E01001B,/Network,/Modify/Content,,/Firewall,/Informational/Error,/Failure,Source
+2E020065,/Network,/Modify/Content,,/Firewall,/Informational,/Success,Source
+2E020066,/Network,/Modify/Content,,/Firewall,/Informational,/Success,Source
+2E020067,/Network,/Modify/Content,,/Firewall,/Informational/Error,/Failure,Source
+2E020069,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3000002A,/Network,/Execute/Query,/Traffic Anomaly/Network Layer,/Firewall,/Informational,/Success,Source
+3000002F,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3000003A,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+3000003C,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+300000C9,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+300000CB,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3000012C,/Network,/Communicate,,/Firewall,/Suspicious,/Success,Source
+3000012D,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3000012E,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Success,Source
+3100000A,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+3100000B,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+3100000D,/Network,/Execute/Query,,/Network Equipment,/Informational/Warning,/Success,Source
+3100000F,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+3100002B,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Success,Source
+3100002C,/Network,/Modify/Attribute,,/Network Equipment,/Informational/Warning,/Success,Source
+3100003A,/Network,/Execute/Query,,/Network Equipment,/Informational/Warning,/Success,Source
+3100003B,/Network,/Modify/Attribute,,/Network Equipment,/Informational/Warning,/Success,Source
+3100003D,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+3100003E,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+3100003F,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+3100004F,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+3100005A,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+3100005B,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+3100005C,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+3100005D,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+3100005E,/Network,/Modify/Attribute,,/Network Equipment,/Informational,/Success,Source
+3100006A,/Network,/Execute/Query,,/Network Equipment,/Informational/Warning,/Success,Source
+3100006C,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+3100006D,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+3800025A,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3800025B,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3800025C,/Network,/Modify/Configuration,,/Firewall,/Informational,/Success,Source
+3800027A,/Network,/Execute/Query,,/Firewall,/Informational/Warning,/Success,Source
+3800027E,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+3900000C,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+3900000D,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+3900000E,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3900000F,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+3A000002,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3A000004,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3A000005,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3A000006,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3A000007,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3A000008,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3A00000A,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3A00000B,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3A00000C,/Network,/Execute/Query,,/Firewall,/Informational/Error,/Failure,Source
+3A00000E,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3A00000F,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3B000001,/Network,/Modify/Attribute,,/Firewall,/Informational,/Success,Source
+3B000002,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3D040001,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3D040002,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+3E000002,/Network,/Authentication/Verify,,/Firewall,/Informational,/Success,Source
+3E000003,/Network,/Authentication/Verify,,/Firewall,/Informational/Warning,/Failure,Source
+3E000004,/Network,/Access/Stop,,/Firewall,/Informational,/Success,Source
+5501000B,/Network,/Check,,/Firewall,/Informational,/Success,Source
+5501000B,/Network,/Check,,/Firewall,/Informational,/Success,Source
+5501000C,/Network,/Check,,/Firewall,/Informational,/Failure,Source
+5501000D,/Network,/Check,,/Firewall,/Informational,/Failure,Source
+5501001A,/Network,/Execute/Query,,/Firewall,/Informational/Warning,/Failure,Source
+5501001B,/Network,/Execute/Query,,/Firewall,/Informational,/Failure,Source
+5501001C,/Network,/Check,,/Firewall,/Informational,/Failure,Source
+5501001D,/Network,/Execute/Query,,/Firewall,/Informational,/Success,Source
+5A000001,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+5A000002,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+5A000003,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+5A000004,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+5A000005,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+5A000006,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+5A000007,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+5A000008,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+5A000009,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+5A00000A,/Network,/Execute/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+5A00000B,/Network,/Communicate/Query,,/Network Equipment,/Informational/Error,/Failure,Source
+5A00000C,/Network,/Modify/Configuration,,/Network Equipment,/Informational,/Success,Source
+5A00000D,/Network,/Modify/Configuration,,/Network Equipment,/Informational,/Success,Source
+5B010001,/Network,/Execute/Query,,/VPN,/Informational,/Success,Source
+5B010002,/Network,/Modify/Configuration,,/VPN,/Informational,/Success,Source
+5B010003,/Network,/Execute/Query,,/VPN,/Informational,/Success,Source
+5B010004,/Network,/Modify/Configuration,,/VPN,/Informational,/Success,Source
+5B010005,/Network,/Authorization/Delete,,/VPN,/Informational,/Success,Source
+6100000A,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+6100000B,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
+6100000C,/Network,/Execute/Query,/Traffic Anomaly/Application Layer/Man in the Middle,/Network Equipment,/Informational/Warning,/Success,Source
+6100000F,/Network,/Execute/Query,,/Network Equipment,/Informational,/Success,Source
