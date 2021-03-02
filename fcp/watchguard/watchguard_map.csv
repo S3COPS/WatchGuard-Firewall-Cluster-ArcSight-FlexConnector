@@ -521,7 +521,7 @@ event.deviceEventClassId,set.event.deviceSeverity,set.event.agentSeverity,set.ev
 2DFF0004,INFO,Low,Protocol
 2DFF0005,INFO,Low,Application match
 "2E000005	",ERROR,High,Process exiting
-2.00E+06,ERROR,High,Process crashed
+2000000,ERROR,High,Process crashed
 2E010017,WARN,Medium,License failed to load
 2E010018,ERROR,High,Failed to start the signature update for the specified services
 2E010019,ERROR,High,Failed to check the available signature version on the server
@@ -584,9 +584,9 @@ event.deviceEventClassId,set.event.deviceSeverity,set.event.agentSeverity,set.ev
 3B000002,INFO,Low,Cluster interface down
 3D040001,INFO,Low,Primary Log Server connected
 3D040002,INFO,Low,Backup Log Server connected
-3.00E+02,INFO,Low,User login succeeded
-3.00E+03,WARN,Medium,User login failed
-3.00E+04,INFO,Low,User logout
+300,INFO,Low,User login succeeded
+3000,WARN,Medium,User login failed
+30000,INFO,Low,User logout
 5501000B,INFO,Low,Device restore
 5501000C,INFO,Low,Device restore failed
 5501000D,INFO,Low,Creating USB auto restore image failed
