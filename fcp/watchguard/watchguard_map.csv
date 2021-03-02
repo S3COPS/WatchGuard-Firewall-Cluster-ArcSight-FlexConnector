@@ -1,4 +1,4 @@
-event.deviceEventClassId,set.event.DeviceSeverity,set.event.agentSeverity,set.event.name
+event.deviceEventClassId,set.event.deviceSeverity,set.event.agentSeverity,set.event.name
 1010001,INFO,Low,Device configuration change
 1010002,INFO,Low,Administrative accounts reset to default
 1020001,INFO,Low,Feature key added
@@ -29,7 +29,6 @@ event.deviceEventClassId,set.event.DeviceSeverity,set.event.agentSeverity,set.ev
 2030015,ERROR,High,IKE Phase 1 retry timeout
 2030016,WARN,Medium,Mobile user rejected - maximum user connections reached
 2030017,ERROR,High,CA certificate not available
-2030017,ERROR,High,CA certificate not available
 2030018,ERROR,High,IKE Phase 1 peer certificate CA is not supported
 2030019,ERROR,High,IKE Phase 1 received certificate with invalid CA name
 2030020,ERROR,High,IKE Phase 1 possible shared secret mismatch
@@ -44,12 +43,10 @@ event.deviceEventClassId,set.event.DeviceSeverity,set.event.agentSeverity,set.ev
 2030029,ERROR,High,IKE Phase 1 invalid aggressive mode ID
 2050002,ERROR,High,IKE Phase 2 PFS mismatch
 2050003,ERROR,High,IKE Phase-2 proposal type mismatch
-2050003,ERROR,High,IKE Phase-2 proposal type mismatch
 2050004,ERROR,High,IKE Phase 2 AH authentication method mismatch
 2050005,ERROR,High,IKE Phase 2 ESP encryption method mismatch
 2050006,ERROR,High,IKE Phase 2 PFS DH group mismatch
 2050007,ERROR,High,IKE Phase 2 ESP authentication method mismatch
-2050008,ERROR,High,IKE Phase 2 AES key length mismatch
 2050008,ERROR,High,IKE Phase 2 AES key length mismatch
 2050010,INFO,Low,Received quick mode informational error message
 2050011,INFO,Low,Dropped simultaneous Phase 2 negotiation
@@ -62,7 +59,6 @@ event.deviceEventClassId,set.event.DeviceSeverity,set.event.agentSeverity,set.ev
 2060007,INFO,Low,Mobile user group information
 2070001,INFO,Low,Tunnel established or re-keyed
 2080001,INFO,Low,IKE phase-1 negotiated successful
-2090001,WARN,Medium,BOVPN tunnel limit reached
 2090001,WARN,Medium,BOVPN tunnel limit reached
 2090002,INFO,Low,IKE process -- FireCluster role changed
 9000001,ERROR,High,Duplicate PPPoE Instance Error
@@ -122,9 +118,7 @@ event.deviceEventClassId,set.event.DeviceSeverity,set.event.agentSeverity,set.ev
 30000163,INFO,Low,IPv6 ICMP flood attack
 30000164,INFO,Low,IPv6 UDP flood attack
 30000165,INFO,Low,IPv6 IPSEC flood attack
-30000165,INFO,Low,IPv6 IPSEC flood attack
 30000166,INFO,Low,IPv6 IKE flood attack
-30000167,INFO,Low,Alarm Traffic matched policy
 30000167,INFO,Low,Alarm Traffic matched policy
 30000168,INFO,Low,Blocked site
 30000169,INFO,Low,IP spoofing
@@ -295,7 +289,6 @@ event.deviceEventClassId,set.event.DeviceSeverity,set.event.agentSeverity,set.ev
 021A000B,ERROR,High,IKEv2 remote gateway endpoint ID mismatch
 021A000C,ERROR,High,IKEv2 local gateway endpoint ID mismatch
 021A000D,ERROR,High,Received IKEv2 message does not have expected payloads
-021A000E,ERROR,High,IKEv2 IKE proposal mismatch
 021A000E,ERROR,High,IKEv2 IKE proposal mismatch
 021A000F,ERROR,High,IKEv2 KE DH-Group mismatch
 021A0010,ERROR,High,IKEv2 IPSec KE DH-Group mismatch
@@ -594,7 +587,6 @@ event.deviceEventClassId,set.event.DeviceSeverity,set.event.agentSeverity,set.ev
 3.00E+02,INFO,Low,User login succeeded
 3.00E+03,WARN,Medium,User login failed
 3.00E+04,INFO,Low,User logout
-5501000B,INFO,Low,Device restore
 5501000B,INFO,Low,Device restore
 5501000C,INFO,Low,Device restore failed
 5501000D,INFO,Low,Creating USB auto restore image failed
