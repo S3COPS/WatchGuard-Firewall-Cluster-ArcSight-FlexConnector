@@ -27,7 +27,7 @@ Restart the SmartConnector
 
 ## Testing:
 * Review the logs for any error
-* Create a filter / channel based on: deviceVendor="WatchGuard" AND deviceProduct="firebox"
+* Create a filter / channel based on: deviceVendor="WatchGuard" AND deviceProduct="Firebox"
 
 ## To Do
 Additional parsing of modules other than Firewall
